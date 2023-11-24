@@ -1,0 +1,36 @@
+version: 2
+
+models:
+  - name: dim_users
+    description: Users related data 
+    columns:
+      - name: user_id
+        description: user id
+        tests:
+          - unique
+          - not_null
+      - name: user_name
+        description: user's name
+        
+      - name: company_id
+        description: company id associated with user
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_company')
+              field: comapany_id
+
+  - name: dim_company
+    description: Company realated data
+    columns:
+      - name: company_id
+        description: company id
+        tests:
+          - unique
+          - not_null
+      - name: company_name
+        description: company's name
+        
+      - name: company_size
+        description: no of employees in a company
+        
