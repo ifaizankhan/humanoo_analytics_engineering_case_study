@@ -39,3 +39,5 @@ You can test if you installed DuckDB properly using "duckdb_test.py"
 2. Do the necessary changes
 3. Don't forget to commit/push them
 4. Share your forked repo URL
+
+![](company.png?raw=true)
