@@ -5,6 +5,7 @@
 ![](bottom_10_users.png?raw=true)
 ![](company.png?raw=true)
 
+![](docs.jpg?raw=true)
 
 ### What is this repo for?
 This repository is the base for case Study at Humanoo, for Analytics Engineer position.
