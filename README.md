@@ -34,10 +34,8 @@ You can test if you installed DuckDB properly using "duckdb_test.py"
     - Show per "Company Name" amount of users and calculate % of how many users have steps data
     - Show the top 10 and bottom 10 users (user_name) with the most (and least) steps collect in 1 day.
 
-### How to share the result?
-1. Fork this repository
-2. Do the necessary changes
-3. Don't forget to commit/push them
-4. Share your forked repo URL
 
+### Daily avg steps for all users: 8165.71 
+![](top_10_users.png?raw=true)
+![](bottom_10_users.png?raw=true)
 ![](company.png?raw=true)
