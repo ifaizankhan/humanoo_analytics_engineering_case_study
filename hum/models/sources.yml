@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: case_study
+    schema: main
+    tables:
+      - name: steps
+      - name: users
+

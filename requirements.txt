@@ -1,0 +1,3 @@
+dbt
+duckdb==0.9
+dbt-duckdb
